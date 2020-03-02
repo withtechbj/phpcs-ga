@@ -1,4 +1,4 @@
-#!/bin/sh -l
-
-sh -c "/usr/local/bin/phpcs ."
+#!/bin/bash
+set -e
+sh -c "/usr/local/bin/phpcs ./ "
 
