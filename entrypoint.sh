@@ -1,4 +1,6 @@
 #!/bin/bash
 set -e
-phpcs ./*
+echo $PWD
+ls $PWD
+phpcs $PWD
 
